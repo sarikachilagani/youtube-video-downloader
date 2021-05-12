@@ -24,10 +24,6 @@ def openpath():
     else:
         path_error.config(text='please choose path',fg='red')
         
-   
-
-
-
 def downloader():
     option=types.get()
     url=url_enter.get()
